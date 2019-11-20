@@ -1,1 +1,48 @@
+<<<<<<< HEAD
 
+=======
+body {
+  background: #666666;
+}
+
+.chair {
+  background: url('chair.png') no-repeat center;
+  width: 100%;
+  height: 200px;
+  color: #fff;
+  text-align: center;
+}
+
+.chair2 {
+  background: url('chair.png') no-repeat center;
+  width: 100%;
+  height: 200px;
+  color: #fff;
+  text-align: center;
+  transform: rotate(180deg);
+}
+
+.chair p {
+  padding-top: 20px;
+  font-weight:bold;
+  font-size: 2rem;
+}
+
+.chair2 p {
+  padding-bottom: 20px;
+  font-weight:bold;
+  font-size: 2rem;
+  transform: rotate(180deg);
+}
+
+.myTable {
+  height: 300px;
+
+  background: #000;
+}
+
+#top {
+  text-align: center;
+  margin-top: 1rem;
+}
+>>>>>>> 3cabdf1df7981ea9b036c5d1c10967c7d5b545fe
