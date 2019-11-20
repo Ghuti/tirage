@@ -6,5 +6,59 @@
   </head>
   <body>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <div id="top">
+      <button id="randomized" type="button" name="button">Randomized</button>
+      <p id="reckt"></p>
+    </div>
   </body>
+
+  <script type="text/javascript">
+
+    randomized = document.getElementById("randomized");
+    d = document.getElementById("top");
+    reckt = document.getElementById("reckt");
+
+    randomized.onclick = function() {
+      throwawayNode = d.removeChild(randomized);
+      plop = Math.round(Math.random()*10);
+      reckt.innerHTML = plop ;
+
+    }
+  </script>
 </html>
