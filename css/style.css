@@ -18,3 +18,8 @@ body
   font-size:20px;
   margin-top:20px;
 }
+
+.chair {
+  background-image: url('../chair.png') no-repeat center;
+  width: 100%;
+}

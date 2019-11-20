@@ -1,7 +1,4 @@
- prenom =["Tony", "Pierre", "David", "Yannick", "Laura", "Tristan", "MaximeB", "Hasna", "Dylan", "Rihab", "Quentin", "MaximeH"];
-
-
-
+//randomized
 document.querySelector('#myButton').addEventListener('click', function()
 {
   function randomize(tab) {
@@ -15,7 +12,28 @@ document.querySelector('#myButton').addEventListener('click', function()
     return tab;
 
   }
-  var  tab =["Tony", "Yannick", "David", "Laura", "Tristan", "Maxime H", "Hasna", "Quentin", "Rihab", "Dylan", "Pierre", "MaximeL"];
+  tab =["Tony", "Yannick", "David", "Laura", "Tristan", "Maxime H", "Hasna", "Quentin", "Rihab", "Dylan", "Pierre", "MaximeL"];
   tab = randomize(tab);
-  out.innerHTML = tab;
+  
+  p1.innerHTML = tab[0];
+  p2.innerHTML = tab[1];
+  p3.innerHTML = tab[2];
+  p4.innerHTML = tab[3];
+  p5.innerHTML = tab[4];
+  p6.innerHTML = tab[5];
+  p7.innerHTML = tab[6];
+  p8.innerHTML = tab[7];
+  p9.innerHTML = tab[8];
+  p10.innerHTML = tab[9];
+  p11.innerHTML = tab[10];
+  p12.innerHTML = tab[11];
 });
+
+
+//animation
+randomized = document.getElementById("myButton");
+d = document.getElementById("top");
+
+randomized.onclick = function() {
+  throwawayNode = d.removeChild(randomized);
+}
