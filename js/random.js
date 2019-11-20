@@ -13,6 +13,7 @@ p9.innerHTML = tab[8];
 p10.innerHTML = tab[9];
 p11.innerHTML = tab[10];
 p12.innerHTML = tab[11];
+
 document.querySelector('#myButton').addEventListener('click', function()
 {
   function randomize(tab) {
@@ -41,6 +42,8 @@ document.querySelector('#myButton').addEventListener('click', function()
   p10.innerHTML = tab[9];
   p11.innerHTML = tab[10];
   p12.innerHTML = tab[11];
+
+  
 });
 
 
