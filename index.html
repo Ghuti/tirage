@@ -7,11 +7,10 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
-    <div id="out"></div>
-    <button id="myButton" class="bigButton btn btn-primary">Mélanger</button>
 
     <div id="top">
-      <button id="randomized" type="button" name="button">Randomized</button>
+      <div id="out"></div>
+      <button id="myButton" class="bigButton btn btn-primary">Mélanger</button>
       <p id="reckt"></p>
     </div>
     <script type="text/javascript" src="js/random.js"></script>
@@ -19,15 +18,11 @@
 
   <script type="text/javascript">
 
-    randomized = document.getElementById("randomized");
+    randomized = document.getElementById("myButton");
     d = document.getElementById("top");
-    reckt = document.getElementById("reckt");
 
     randomized.onclick = function() {
       throwawayNode = d.removeChild(randomized);
-      plop = Math.round(Math.random()*10);
-      reckt.innerHTML = plop ;
-
     }
   </script>
 </html>

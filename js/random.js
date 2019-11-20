@@ -1,3 +1,6 @@
+ prenom =["Tony", "Pierre", "David", "Yannick", "Laura", "Tristan", "MaximeB", "Hasna", "Dylan", "Rihab", "Quentin", "MaximeH"];
+
+
 
 document.querySelector('#myButton').addEventListener('click', function()
 {
