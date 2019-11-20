@@ -10,6 +10,28 @@ body {
   text-align: center;
 }
 
+.chair2 {
+  background: url('chair.png') no-repeat center;
+  width: 100%;
+  height: 200px;
+  color: #fff;
+  text-align: center;
+  transform: rotate(180deg);
+}
+
+.chair p {
+  padding-top: 20px;
+  font-weight:bold;
+  font-size: 2rem;
+}
+
+.chair2 p {
+  padding-bottom: 20px;
+  font-weight:bold;
+  font-size: 2rem;
+  transform: rotate(180deg);
+}
+
 .myTable {
   height: 300px;
 
@@ -19,10 +41,4 @@ body {
 #top {
   text-align: center;
   margin-top: 1rem;
-}
-
-.chair p {
-  padding-top: 20px;
-  font-weight:bold;
-  font-size: 2rem;
 }
