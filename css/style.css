@@ -34,8 +34,19 @@ body {
 
 .myTable {
   height: 300px;
-
   background: #000;
+}
+
+.text {
+  margin-top: 85px;
+  font-size: 5rem;
+  color: #fff;
+}
+
+.arrow {
+  transform: rotate(90deg);
+  height: 200px;
+  margin-top: 50px;
 }
 
 #top {
